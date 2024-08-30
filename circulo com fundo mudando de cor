@@ -1,0 +1,15 @@
+/* style.css */
+/* Estilizando o corpo da página */
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #e0e0e0;
+}
+
+/* Estilizando o canvas */
+canvas {
+  border: 2px dashed #ff5722;
+}
