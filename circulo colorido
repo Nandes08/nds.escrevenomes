@@ -1,0 +1,10 @@
+// sketch.js
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background(0); // Fundo preto para contraste
+  fill(0, 255, 0); // Cor de preenchimento verde
+  ellipse(mouseX, mouseY, 100, 100); // Desenha um círculo verde na posição do mouse
+}
