@@ -1,0 +1,12 @@
+// sketch.js
+function setup() {
+  createCanvas(600, 400);
+}
+
+function draw() {
+  background(0); // Fundo preto
+  stroke(255, 0, 255); // Cor da borda para rosa neon
+  strokeWeight(5);
+  noFill();
+  ellipse(width / 2, height / 2, 200, 200); // Desenha um círculo com borda neon
+}
